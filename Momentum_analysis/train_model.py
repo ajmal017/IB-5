@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error
 from parameters import train_model_date_split
 import shap
 
+
 class momentum_model(preprocessing):
     def __init__(self):
         super(momentum_model, self).__init__()
